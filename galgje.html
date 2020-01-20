@@ -1,0 +1,31 @@
+<script>
+		var aantalpogingen = 0;
+		function raden(){
+					var x = document.getElementById("geradenletter").value;
+					if( x == "f" || x == "i" || x == "e" || x =="t" || x == "s" ) {
+									alert("Goed");
+					
+					} else {
+							aantalpogingen++;
+							alert("Fout");
+				
+							}
+							console.log(aantalpogingen);
+					if( aantalpogingen == 3) { 
+									alert("Game over");
+					}
+					}
+</script>
+
+galgje
+<img src=galgje.jpg >
+<br>
+<div>.....</div>
+<input id=geradenletter >
+<input value=raden type=button onclick=raden() >
+
+		
+	
+	
+
+
